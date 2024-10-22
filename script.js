@@ -21,7 +21,7 @@ myForm.addEventListener('submit', (e) => {
     }
 
     if (emailInp.value.trim() === '') {
-        emailInp.classList.toggle('active')
+        emailInp.classList.add('active')
         emailInp.placeholder = 'Please fill out this field'
         isRequired = false
     }
